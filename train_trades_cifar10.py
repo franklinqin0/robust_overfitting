@@ -6,6 +6,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
 import torch.optim as optim
+from torch.autograd import Variable
 from torchvision import datasets, transforms
 
 from wideresnet import *
@@ -64,9 +65,20 @@ transform_train = transforms.Compose([
 transform_test = transforms.Compose([
     transforms.ToTensor(),
 ])
+# trainset = torchvision.datasets.CIFAR10(root='../data', train=True, download=True, transform=transform_train)
+# train_loader = torch.utils.data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, **kwargs)
+# testset = torchvision.datasets.CIFAR10(root='../data', train=False, download=True, transform=transform_test)
+# test_loader = torch.utils.data.DataLoader(testset, batch_size=args.test_batch_size, shuffle=False, **kwargs)
+
+ss = lambda dataset: list(range(0, len(dataset)//10, 5))
 trainset = torchvision.datasets.CIFAR10(root='../data', train=True, download=True, transform=transform_train)
+# print("trainset size:", len(trainset))
+# raise ValueError("trainset size")
+trainset = torch.utils.data.Subset(trainset, ss(trainset))
 train_loader = torch.utils.data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, **kwargs)
+
 testset = torchvision.datasets.CIFAR10(root='../data', train=False, download=True, transform=transform_test)
+testset = torch.utils.data.Subset(trainset, ss(testset))
 test_loader = torch.utils.data.DataLoader(testset, batch_size=args.test_batch_size, shuffle=False, **kwargs)
 
 
@@ -134,6 +146,55 @@ def eval_test(model, device, test_loader):
     return test_loss, test_accuracy
 
 
+def _pgd_whitebox(model,
+                  X,
+                  y,
+                  epsilon=args.epsilon,
+                  num_steps=args.num_steps,
+                  step_size=args.step_size):
+    out = model(X)
+    err = (out.data.max(1)[1] != y.data).float().sum()
+    X_pgd = Variable(X.data, requires_grad=True)
+    # if args.random:
+    #     random_noise = torch.FloatTensor(*X_pgd.shape).uniform_(-epsilon, epsilon).to(device)
+    #     X_pgd = Variable(X_pgd.data + random_noise, requires_grad=True)
+
+    for _ in range(num_steps):
+        opt = optim.SGD([X_pgd], lr=1e-3)
+        opt.zero_grad()
+
+        with torch.enable_grad():
+            loss = nn.CrossEntropyLoss()(model(X_pgd), y)
+        loss.backward()
+        eta = step_size * X_pgd.grad.data.sign()
+        X_pgd = Variable(X_pgd.data + eta, requires_grad=True)
+        eta = torch.clamp(X_pgd.data - X.data, -epsilon, epsilon)
+        X_pgd = Variable(X.data + eta, requires_grad=True)
+        X_pgd = Variable(torch.clamp(X_pgd, 0, 1.0), requires_grad=True)
+    err_pgd = (model(X_pgd).data.max(1)[1] != y.data).float().sum()
+    print('err pgd (white-box): ', err_pgd)
+    return err, err_pgd
+
+
+def eval_adv_test_whitebox(model, device, test_loader):
+    """
+    evaluate model by white-box attack
+    """
+    model.eval()
+    robust_err_total = 0
+    natural_err_total = 0
+
+    for data, target in test_loader:
+        data, target = data.to(device), target.to(device)
+        # pgd attack
+        X, y = Variable(data, requires_grad=True), Variable(target)
+        err_natural, err_robust = _pgd_whitebox(model, X, y)
+        robust_err_total += err_robust
+        natural_err_total += err_natural
+    print('natural_err_total: ', natural_err_total)
+    print('robust_err_total: ', robust_err_total)
+
+
 def adjust_learning_rate(optimizer, epoch):
     """decrease the learning rate"""
     lr = args.lr
@@ -163,6 +224,7 @@ def main():
         print('================================================================')
         eval_train(model, device, train_loader)
         eval_test(model, device, test_loader)
+        eval_adv_test_whitebox(model, device, test_loader)
         print('================================================================')
 
         # save checkpoint

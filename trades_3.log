@@ -1,0 +1,1802 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Train Epoch: 1 [0/1000 (0%)]	Loss: 2.318033
+================================================================
+Training: Average loss: 2.9524, Accuracy: 126/1000 (13%)
+Test: Average loss: 3.0295, Accuracy: 15/200 (8%)
+err pgd (white-box):  tensor(125., device='cuda:0')
+err pgd (white-box):  tensor(69., device='cuda:0')
+natural_err_total:  tensor(183., device='cuda:0')
+robust_err_total:  tensor(194., device='cuda:0')
+================================================================
+Train Epoch: 2 [0/1000 (0%)]	Loss: 2.385868
+================================================================
+Training: Average loss: 10.8202, Accuracy: 135/1000 (14%)
+Test: Average loss: 9.5279, Accuracy: 24/200 (12%)
+err pgd (white-box):  tensor(117., device='cuda:0')
+err pgd (white-box):  tensor(64., device='cuda:0')
+natural_err_total:  tensor(173., device='cuda:0')
+robust_err_total:  tensor(181., device='cuda:0')
+================================================================
+Train Epoch: 3 [0/1000 (0%)]	Loss: 2.766019
+================================================================
+Training: Average loss: 2.3245, Accuracy: 158/1000 (16%)
+Test: Average loss: 2.2370, Accuracy: 29/200 (14%)
+err pgd (white-box):  tensor(115., device='cuda:0')
+err pgd (white-box):  tensor(63., device='cuda:0')
+natural_err_total:  tensor(167., device='cuda:0')
+robust_err_total:  tensor(178., device='cuda:0')
+================================================================
+Train Epoch: 4 [0/1000 (0%)]	Loss: 2.172029
+================================================================
+Training: Average loss: 2.1483, Accuracy: 247/1000 (25%)
+Test: Average loss: 2.0723, Accuracy: 48/200 (24%)
+err pgd (white-box):  tensor(114., device='cuda:0')
+err pgd (white-box):  tensor(62., device='cuda:0')
+natural_err_total:  tensor(147., device='cuda:0')
+robust_err_total:  tensor(176., device='cuda:0')
+================================================================
+Train Epoch: 5 [0/1000 (0%)]	Loss: 2.113824
+================================================================
+Training: Average loss: 2.1154, Accuracy: 195/1000 (20%)
+Test: Average loss: 2.1216, Accuracy: 36/200 (18%)
+err pgd (white-box):  tensor(105., device='cuda:0')
+err pgd (white-box):  tensor(65., device='cuda:0')
+natural_err_total:  tensor(157., device='cuda:0')
+robust_err_total:  tensor(170., device='cuda:0')
+================================================================
+Train Epoch: 6 [0/1000 (0%)]	Loss: 2.243392
+================================================================
+Training: Average loss: 2.0275, Accuracy: 250/1000 (25%)
+Test: Average loss: 2.0216, Accuracy: 53/200 (26%)
+err pgd (white-box):  tensor(107., device='cuda:0')
+err pgd (white-box):  tensor(61., device='cuda:0')
+natural_err_total:  tensor(148., device='cuda:0')
+robust_err_total:  tensor(168., device='cuda:0')
+================================================================
+Train Epoch: 7 [0/1000 (0%)]	Loss: 1.993542
+================================================================
+Training: Average loss: 2.0331, Accuracy: 230/1000 (23%)
+Test: Average loss: 1.9451, Accuracy: 50/200 (25%)
+err pgd (white-box):  tensor(106., device='cuda:0')
+err pgd (white-box):  tensor(61., device='cuda:0')
+natural_err_total:  tensor(149., device='cuda:0')
+robust_err_total:  tensor(167., device='cuda:0')
+================================================================
+Train Epoch: 8 [0/1000 (0%)]	Loss: 2.096032
+================================================================
+Training: Average loss: 1.9237, Accuracy: 311/1000 (31%)
+Test: Average loss: 1.9499, Accuracy: 58/200 (29%)
+err pgd (white-box):  tensor(99., device='cuda:0')
+err pgd (white-box):  tensor(58., device='cuda:0')
+natural_err_total:  tensor(139., device='cuda:0')
+robust_err_total:  tensor(157., device='cuda:0')
+================================================================
+Train Epoch: 9 [0/1000 (0%)]	Loss: 1.938773
+================================================================
+Training: Average loss: 1.9265, Accuracy: 310/1000 (31%)
+Test: Average loss: 1.8718, Accuracy: 70/200 (35%)
+err pgd (white-box):  tensor(96., device='cuda:0')
+err pgd (white-box):  tensor(60., device='cuda:0')
+natural_err_total:  tensor(131., device='cuda:0')
+robust_err_total:  tensor(156., device='cuda:0')
+================================================================
+Train Epoch: 10 [0/1000 (0%)]	Loss: 1.969462
+================================================================
+Training: Average loss: 1.8590, Accuracy: 330/1000 (33%)
+Test: Average loss: 1.8053, Accuracy: 78/200 (39%)
+err pgd (white-box):  tensor(104., device='cuda:0')
+err pgd (white-box):  tensor(47., device='cuda:0')
+natural_err_total:  tensor(123., device='cuda:0')
+robust_err_total:  tensor(151., device='cuda:0')
+================================================================
+Train Epoch: 11 [0/1000 (0%)]	Loss: 2.023141
+================================================================
+Training: Average loss: 1.7368, Accuracy: 376/1000 (38%)
+Test: Average loss: 1.7129, Accuracy: 84/200 (42%)
+err pgd (white-box):  tensor(101., device='cuda:0')
+err pgd (white-box):  tensor(49., device='cuda:0')
+natural_err_total:  tensor(117., device='cuda:0')
+robust_err_total:  tensor(150., device='cuda:0')
+================================================================
+Train Epoch: 12 [0/1000 (0%)]	Loss: 1.932497
+================================================================
+Training: Average loss: 1.7781, Accuracy: 382/1000 (38%)
+Test: Average loss: 1.7375, Accuracy: 85/200 (42%)
+err pgd (white-box):  tensor(97., device='cuda:0')
+err pgd (white-box):  tensor(49., device='cuda:0')
+natural_err_total:  tensor(113., device='cuda:0')
+robust_err_total:  tensor(146., device='cuda:0')
+================================================================
+Train Epoch: 13 [0/1000 (0%)]	Loss: 1.886105
+================================================================
+Training: Average loss: 1.7398, Accuracy: 396/1000 (40%)
+Test: Average loss: 1.7086, Accuracy: 83/200 (42%)
+err pgd (white-box):  tensor(96., device='cuda:0')
+err pgd (white-box):  tensor(56., device='cuda:0')
+natural_err_total:  tensor(117., device='cuda:0')
+robust_err_total:  tensor(152., device='cuda:0')
+================================================================
+Train Epoch: 14 [0/1000 (0%)]	Loss: 1.832993
+================================================================
+Training: Average loss: 1.7203, Accuracy: 385/1000 (38%)
+Test: Average loss: 1.6997, Accuracy: 84/200 (42%)
+err pgd (white-box):  tensor(93., device='cuda:0')
+err pgd (white-box):  tensor(46., device='cuda:0')
+natural_err_total:  tensor(111., device='cuda:0')
+robust_err_total:  tensor(139., device='cuda:0')
+================================================================
+Train Epoch: 15 [0/1000 (0%)]	Loss: 1.825004
+================================================================
+Training: Average loss: 1.7053, Accuracy: 385/1000 (38%)
+Test: Average loss: 1.6530, Accuracy: 91/200 (46%)
+err pgd (white-box):  tensor(86., device='cuda:0')
+err pgd (white-box):  tensor(50., device='cuda:0')
+natural_err_total:  tensor(106., device='cuda:0')
+robust_err_total:  tensor(136., device='cuda:0')
+================================================================
+Train Epoch: 16 [0/1000 (0%)]	Loss: 1.832883
+================================================================
+Training: Average loss: 1.7010, Accuracy: 403/1000 (40%)
+Test: Average loss: 1.6084, Accuracy: 96/200 (48%)
+err pgd (white-box):  tensor(88., device='cuda:0')
+err pgd (white-box):  tensor(41., device='cuda:0')
+natural_err_total:  tensor(103., device='cuda:0')
+robust_err_total:  tensor(129., device='cuda:0')
+================================================================
+Train Epoch: 17 [0/1000 (0%)]	Loss: 1.777791
+================================================================
+Training: Average loss: 1.6991, Accuracy: 408/1000 (41%)
+Test: Average loss: 1.6167, Accuracy: 101/200 (50%)
+err pgd (white-box):  tensor(98., device='cuda:0')
+err pgd (white-box):  tensor(50., device='cuda:0')
+natural_err_total:  tensor(104., device='cuda:0')
+robust_err_total:  tensor(148., device='cuda:0')
+================================================================
+Train Epoch: 18 [0/1000 (0%)]	Loss: 1.745574
+================================================================
+Training: Average loss: 1.6474, Accuracy: 405/1000 (40%)
+Test: Average loss: 1.6167, Accuracy: 83/200 (42%)
+err pgd (white-box):  tensor(104., device='cuda:0')
+err pgd (white-box):  tensor(51., device='cuda:0')
+natural_err_total:  tensor(104., device='cuda:0')
+robust_err_total:  tensor(155., device='cuda:0')
+================================================================
+Train Epoch: 19 [0/1000 (0%)]	Loss: 1.910583
+================================================================
+Training: Average loss: 1.6633, Accuracy: 414/1000 (41%)
+Test: Average loss: 1.5921, Accuracy: 96/200 (48%)
+err pgd (white-box):  tensor(92., device='cuda:0')
+err pgd (white-box):  tensor(49., device='cuda:0')
+natural_err_total:  tensor(98., device='cuda:0')
+robust_err_total:  tensor(141., device='cuda:0')
+================================================================
+Train Epoch: 20 [0/1000 (0%)]	Loss: 1.778596
+================================================================
+Training: Average loss: 1.5613, Accuracy: 472/1000 (47%)
+Test: Average loss: 1.5166, Accuracy: 105/200 (52%)
+err pgd (white-box):  tensor(91., device='cuda:0')
+err pgd (white-box):  tensor(47., device='cuda:0')
+natural_err_total:  tensor(93., device='cuda:0')
+robust_err_total:  tensor(138., device='cuda:0')
+================================================================
+Train Epoch: 21 [0/1000 (0%)]	Loss: 1.701017
+================================================================
+Training: Average loss: 1.5591, Accuracy: 476/1000 (48%)
+Test: Average loss: 1.5711, Accuracy: 89/200 (44%)
+err pgd (white-box):  tensor(92., device='cuda:0')
+err pgd (white-box):  tensor(57., device='cuda:0')
+natural_err_total:  tensor(108., device='cuda:0')
+robust_err_total:  tensor(149., device='cuda:0')
+================================================================
+Train Epoch: 22 [0/1000 (0%)]	Loss: 1.778015
+================================================================
+Training: Average loss: 1.6112, Accuracy: 445/1000 (44%)
+Test: Average loss: 1.5462, Accuracy: 98/200 (49%)
+err pgd (white-box):  tensor(92., device='cuda:0')
+err pgd (white-box):  tensor(55., device='cuda:0')
+natural_err_total:  tensor(101., device='cuda:0')
+robust_err_total:  tensor(147., device='cuda:0')
+================================================================
+Train Epoch: 23 [0/1000 (0%)]	Loss: 1.700378
+================================================================
+Training: Average loss: 1.5214, Accuracy: 483/1000 (48%)
+Test: Average loss: 1.4934, Accuracy: 93/200 (46%)
+err pgd (white-box):  tensor(95., device='cuda:0')
+err pgd (white-box):  tensor(49., device='cuda:0')
+natural_err_total:  tensor(101., device='cuda:0')
+robust_err_total:  tensor(144., device='cuda:0')
+================================================================
+Train Epoch: 24 [0/1000 (0%)]	Loss: 1.637117
+================================================================
+Training: Average loss: 1.5631, Accuracy: 461/1000 (46%)
+Test: Average loss: 1.5322, Accuracy: 97/200 (48%)
+err pgd (white-box):  tensor(94., device='cuda:0')
+err pgd (white-box):  tensor(51., device='cuda:0')
+natural_err_total:  tensor(101., device='cuda:0')
+robust_err_total:  tensor(145., device='cuda:0')
+================================================================
+Train Epoch: 25 [0/1000 (0%)]	Loss: 1.643884
+================================================================
+Training: Average loss: 1.4210, Accuracy: 566/1000 (57%)
+Test: Average loss: 1.3867, Accuracy: 112/200 (56%)
+err pgd (white-box):  tensor(88., device='cuda:0')
+err pgd (white-box):  tensor(50., device='cuda:0')
+natural_err_total:  tensor(79., device='cuda:0')
+robust_err_total:  tensor(138., device='cuda:0')
+================================================================
+Train Epoch: 26 [0/1000 (0%)]	Loss: 1.642165
+================================================================
+Training: Average loss: 1.4369, Accuracy: 524/1000 (52%)
+Test: Average loss: 1.4047, Accuracy: 111/200 (56%)
+err pgd (white-box):  tensor(96., device='cuda:0')
+err pgd (white-box):  tensor(47., device='cuda:0')
+natural_err_total:  tensor(94., device='cuda:0')
+robust_err_total:  tensor(143., device='cuda:0')
+================================================================
+Train Epoch: 27 [0/1000 (0%)]	Loss: 1.576162
+================================================================
+Training: Average loss: 1.5242, Accuracy: 485/1000 (48%)
+Test: Average loss: 1.4128, Accuracy: 112/200 (56%)
+err pgd (white-box):  tensor(88., device='cuda:0')
+err pgd (white-box):  tensor(44., device='cuda:0')
+natural_err_total:  tensor(80., device='cuda:0')
+robust_err_total:  tensor(132., device='cuda:0')
+================================================================
+Train Epoch: 28 [0/1000 (0%)]	Loss: 1.775070
+================================================================
+Training: Average loss: 1.3574, Accuracy: 596/1000 (60%)
+Test: Average loss: 1.3025, Accuracy: 130/200 (65%)
+err pgd (white-box):  tensor(84., device='cuda:0')
+err pgd (white-box):  tensor(41., device='cuda:0')
+natural_err_total:  tensor(70., device='cuda:0')
+robust_err_total:  tensor(125., device='cuda:0')
+================================================================
+Train Epoch: 29 [0/1000 (0%)]	Loss: 1.492608
+================================================================
+Training: Average loss: 1.4818, Accuracy: 473/1000 (47%)
+Test: Average loss: 1.4124, Accuracy: 104/200 (52%)
+err pgd (white-box):  tensor(80., device='cuda:0')
+err pgd (white-box):  tensor(44., device='cuda:0')
+natural_err_total:  tensor(91., device='cuda:0')
+robust_err_total:  tensor(124., device='cuda:0')
+================================================================
+Train Epoch: 30 [0/1000 (0%)]	Loss: 1.622156
+================================================================
+Training: Average loss: 1.4059, Accuracy: 564/1000 (56%)
+Test: Average loss: 1.3417, Accuracy: 127/200 (64%)
+err pgd (white-box):  tensor(89., device='cuda:0')
+err pgd (white-box):  tensor(41., device='cuda:0')
+natural_err_total:  tensor(72., device='cuda:0')
+robust_err_total:  tensor(130., device='cuda:0')
+================================================================
+Train Epoch: 31 [0/1000 (0%)]	Loss: 1.617999
+================================================================
+Training: Average loss: 1.2965, Accuracy: 602/1000 (60%)
+Test: Average loss: 1.2310, Accuracy: 126/200 (63%)
+err pgd (white-box):  tensor(85., device='cuda:0')
+err pgd (white-box):  tensor(37., device='cuda:0')
+natural_err_total:  tensor(73., device='cuda:0')
+robust_err_total:  tensor(122., device='cuda:0')
+================================================================
+Train Epoch: 32 [0/1000 (0%)]	Loss: 1.578124
+================================================================
+Training: Average loss: 1.2988, Accuracy: 570/1000 (57%)
+Test: Average loss: 1.2736, Accuracy: 118/200 (59%)
+err pgd (white-box):  tensor(89., device='cuda:0')
+err pgd (white-box):  tensor(45., device='cuda:0')
+natural_err_total:  tensor(85., device='cuda:0')
+robust_err_total:  tensor(134., device='cuda:0')
+================================================================
+Train Epoch: 33 [0/1000 (0%)]	Loss: 1.553629
+================================================================
+Training: Average loss: 1.3217, Accuracy: 555/1000 (56%)
+Test: Average loss: 1.3297, Accuracy: 115/200 (58%)
+err pgd (white-box):  tensor(83., device='cuda:0')
+err pgd (white-box):  tensor(52., device='cuda:0')
+natural_err_total:  tensor(86., device='cuda:0')
+robust_err_total:  tensor(135., device='cuda:0')
+================================================================
+Train Epoch: 34 [0/1000 (0%)]	Loss: 1.534982
+================================================================
+Training: Average loss: 1.2361, Accuracy: 612/1000 (61%)
+Test: Average loss: 1.1763, Accuracy: 139/200 (70%)
+err pgd (white-box):  tensor(78., device='cuda:0')
+err pgd (white-box):  tensor(40., device='cuda:0')
+natural_err_total:  tensor(74., device='cuda:0')
+robust_err_total:  tensor(118., device='cuda:0')
+================================================================
+Train Epoch: 35 [0/1000 (0%)]	Loss: 1.459454
+================================================================
+Training: Average loss: 1.2272, Accuracy: 658/1000 (66%)
+Test: Average loss: 1.1983, Accuracy: 141/200 (70%)
+err pgd (white-box):  tensor(80., device='cuda:0')
+err pgd (white-box):  tensor(46., device='cuda:0')
+natural_err_total:  tensor(51., device='cuda:0')
+robust_err_total:  tensor(126., device='cuda:0')
+================================================================
+Train Epoch: 36 [0/1000 (0%)]	Loss: 1.486471
+================================================================
+Training: Average loss: 1.1679, Accuracy: 683/1000 (68%)
+Test: Average loss: 1.1842, Accuracy: 134/200 (67%)
+err pgd (white-box):  tensor(80., device='cuda:0')
+err pgd (white-box):  tensor(46., device='cuda:0')
+natural_err_total:  tensor(62., device='cuda:0')
+robust_err_total:  tensor(126., device='cuda:0')
+================================================================
+Train Epoch: 37 [0/1000 (0%)]	Loss: 1.391652
+================================================================
+Training: Average loss: 1.2159, Accuracy: 617/1000 (62%)
+Test: Average loss: 1.1711, Accuracy: 122/200 (61%)
+err pgd (white-box):  tensor(78., device='cuda:0')
+err pgd (white-box):  tensor(39., device='cuda:0')
+natural_err_total:  tensor(69., device='cuda:0')
+robust_err_total:  tensor(117., device='cuda:0')
+================================================================
+Train Epoch: 38 [0/1000 (0%)]	Loss: 1.459369
+================================================================
+Training: Average loss: 1.2328, Accuracy: 642/1000 (64%)
+Test: Average loss: 1.2177, Accuracy: 132/200 (66%)
+err pgd (white-box):  tensor(80., device='cuda:0')
+err pgd (white-box):  tensor(41., device='cuda:0')
+natural_err_total:  tensor(68., device='cuda:0')
+robust_err_total:  tensor(121., device='cuda:0')
+================================================================
+Train Epoch: 39 [0/1000 (0%)]	Loss: 1.454923
+================================================================
+Training: Average loss: 1.1467, Accuracy: 621/1000 (62%)
+Test: Average loss: 1.1181, Accuracy: 131/200 (66%)
+err pgd (white-box):  tensor(77., device='cuda:0')
+err pgd (white-box):  tensor(44., device='cuda:0')
+natural_err_total:  tensor(66., device='cuda:0')
+robust_err_total:  tensor(121., device='cuda:0')
+================================================================
+Train Epoch: 40 [0/1000 (0%)]	Loss: 1.362566
+================================================================
+Training: Average loss: 1.1611, Accuracy: 651/1000 (65%)
+Test: Average loss: 1.1259, Accuracy: 136/200 (68%)
+err pgd (white-box):  tensor(77., device='cuda:0')
+err pgd (white-box):  tensor(43., device='cuda:0')
+natural_err_total:  tensor(56., device='cuda:0')
+robust_err_total:  tensor(120., device='cuda:0')
+================================================================
+Train Epoch: 41 [0/1000 (0%)]	Loss: 1.465033
+================================================================
+Training: Average loss: 1.1010, Accuracy: 714/1000 (71%)
+Test: Average loss: 1.0735, Accuracy: 155/200 (78%)
+err pgd (white-box):  tensor(69., device='cuda:0')
+err pgd (white-box):  tensor(35., device='cuda:0')
+natural_err_total:  tensor(50., device='cuda:0')
+robust_err_total:  tensor(104., device='cuda:0')
+================================================================
+Train Epoch: 42 [0/1000 (0%)]	Loss: 1.373705
+================================================================
+Training: Average loss: 1.0701, Accuracy: 672/1000 (67%)
+Test: Average loss: 1.0273, Accuracy: 147/200 (74%)
+err pgd (white-box):  tensor(75., device='cuda:0')
+err pgd (white-box):  tensor(36., device='cuda:0')
+natural_err_total:  tensor(53., device='cuda:0')
+robust_err_total:  tensor(111., device='cuda:0')
+================================================================
+Train Epoch: 43 [0/1000 (0%)]	Loss: 1.331121
+================================================================
+Training: Average loss: 0.9517, Accuracy: 771/1000 (77%)
+Test: Average loss: 0.9019, Accuracy: 163/200 (82%)
+err pgd (white-box):  tensor(63., device='cuda:0')
+err pgd (white-box):  tensor(25., device='cuda:0')
+natural_err_total:  tensor(50., device='cuda:0')
+robust_err_total:  tensor(88., device='cuda:0')
+================================================================
+Train Epoch: 44 [0/1000 (0%)]	Loss: 1.267304
+================================================================
+Training: Average loss: 1.0663, Accuracy: 671/1000 (67%)
+Test: Average loss: 1.0571, Accuracy: 135/200 (68%)
+err pgd (white-box):  tensor(85., device='cuda:0')
+err pgd (white-box):  tensor(43., device='cuda:0')
+natural_err_total:  tensor(63., device='cuda:0')
+robust_err_total:  tensor(128., device='cuda:0')
+================================================================
+Train Epoch: 45 [0/1000 (0%)]	Loss: 1.244503
+================================================================
+Training: Average loss: 1.0282, Accuracy: 715/1000 (72%)
+Test: Average loss: 0.9655, Accuracy: 150/200 (75%)
+err pgd (white-box):  tensor(62., device='cuda:0')
+err pgd (white-box):  tensor(35., device='cuda:0')
+natural_err_total:  tensor(55., device='cuda:0')
+robust_err_total:  tensor(97., device='cuda:0')
+================================================================
+Train Epoch: 46 [0/1000 (0%)]	Loss: 1.339201
+================================================================
+Training: Average loss: 0.9450, Accuracy: 751/1000 (75%)
+Test: Average loss: 0.9095, Accuracy: 162/200 (81%)
+err pgd (white-box):  tensor(65., device='cuda:0')
+err pgd (white-box):  tensor(34., device='cuda:0')
+natural_err_total:  tensor(41., device='cuda:0')
+robust_err_total:  tensor(99., device='cuda:0')
+================================================================
+Train Epoch: 47 [0/1000 (0%)]	Loss: 1.212342
+================================================================
+Training: Average loss: 0.8999, Accuracy: 746/1000 (75%)
+Test: Average loss: 0.8355, Accuracy: 157/200 (78%)
+err pgd (white-box):  tensor(67., device='cuda:0')
+err pgd (white-box):  tensor(31., device='cuda:0')
+natural_err_total:  tensor(46., device='cuda:0')
+robust_err_total:  tensor(98., device='cuda:0')
+================================================================
+Train Epoch: 48 [0/1000 (0%)]	Loss: 1.222166
+================================================================
+Training: Average loss: 0.8869, Accuracy: 776/1000 (78%)
+Test: Average loss: 0.8273, Accuracy: 172/200 (86%)
+err pgd (white-box):  tensor(59., device='cuda:0')
+err pgd (white-box):  tensor(30., device='cuda:0')
+natural_err_total:  tensor(38., device='cuda:0')
+robust_err_total:  tensor(89., device='cuda:0')
+================================================================
+Train Epoch: 49 [0/1000 (0%)]	Loss: 1.228017
+================================================================
+Training: Average loss: 0.8481, Accuracy: 832/1000 (83%)
+Test: Average loss: 0.8379, Accuracy: 170/200 (85%)
+err pgd (white-box):  tensor(60., device='cuda:0')
+err pgd (white-box):  tensor(30., device='cuda:0')
+natural_err_total:  tensor(33., device='cuda:0')
+robust_err_total:  tensor(90., device='cuda:0')
+================================================================
+Train Epoch: 50 [0/1000 (0%)]	Loss: 1.202426
+================================================================
+Training: Average loss: 0.8105, Accuracy: 807/1000 (81%)
+Test: Average loss: 0.7685, Accuracy: 170/200 (85%)
+err pgd (white-box):  tensor(59., device='cuda:0')
+err pgd (white-box):  tensor(30., device='cuda:0')
+natural_err_total:  tensor(29., device='cuda:0')
+robust_err_total:  tensor(89., device='cuda:0')
+================================================================
+Train Epoch: 51 [0/1000 (0%)]	Loss: 1.145143
+================================================================
+Training: Average loss: 0.8919, Accuracy: 799/1000 (80%)
+Test: Average loss: 0.8759, Accuracy: 164/200 (82%)
+err pgd (white-box):  tensor(50., device='cuda:0')
+err pgd (white-box):  tensor(32., device='cuda:0')
+natural_err_total:  tensor(38., device='cuda:0')
+robust_err_total:  tensor(82., device='cuda:0')
+================================================================
+Train Epoch: 52 [0/1000 (0%)]	Loss: 1.122776
+================================================================
+Training: Average loss: 0.8366, Accuracy: 818/1000 (82%)
+Test: Average loss: 0.8527, Accuracy: 158/200 (79%)
+err pgd (white-box):  tensor(58., device='cuda:0')
+err pgd (white-box):  tensor(35., device='cuda:0')
+natural_err_total:  tensor(35., device='cuda:0')
+robust_err_total:  tensor(93., device='cuda:0')
+================================================================
+Train Epoch: 53 [0/1000 (0%)]	Loss: 1.128274
+================================================================
+Training: Average loss: 0.8335, Accuracy: 816/1000 (82%)
+Test: Average loss: 0.8321, Accuracy: 171/200 (86%)
+err pgd (white-box):  tensor(59., device='cuda:0')
+err pgd (white-box):  tensor(31., device='cuda:0')
+natural_err_total:  tensor(32., device='cuda:0')
+robust_err_total:  tensor(90., device='cuda:0')
+================================================================
+Train Epoch: 54 [0/1000 (0%)]	Loss: 1.130953
+================================================================
+Training: Average loss: 0.8381, Accuracy: 772/1000 (77%)
+Test: Average loss: 0.8198, Accuracy: 159/200 (80%)
+err pgd (white-box):  tensor(65., device='cuda:0')
+err pgd (white-box):  tensor(30., device='cuda:0')
+natural_err_total:  tensor(45., device='cuda:0')
+robust_err_total:  tensor(95., device='cuda:0')
+================================================================
+Train Epoch: 55 [0/1000 (0%)]	Loss: 1.152931
+================================================================
+Training: Average loss: 0.8660, Accuracy: 800/1000 (80%)
+Test: Average loss: 0.8801, Accuracy: 159/200 (80%)
+err pgd (white-box):  tensor(60., device='cuda:0')
+err pgd (white-box):  tensor(33., device='cuda:0')
+natural_err_total:  tensor(40., device='cuda:0')
+robust_err_total:  tensor(93., device='cuda:0')
+================================================================
+Train Epoch: 56 [0/1000 (0%)]	Loss: 1.141530
+================================================================
+Training: Average loss: 0.8638, Accuracy: 769/1000 (77%)
+Test: Average loss: 0.8356, Accuracy: 160/200 (80%)
+err pgd (white-box):  tensor(64., device='cuda:0')
+err pgd (white-box):  tensor(33., device='cuda:0')
+natural_err_total:  tensor(38., device='cuda:0')
+robust_err_total:  tensor(97., device='cuda:0')
+================================================================
+Train Epoch: 57 [0/1000 (0%)]	Loss: 1.177293
+================================================================
+Training: Average loss: 0.7986, Accuracy: 846/1000 (85%)
+Test: Average loss: 0.7973, Accuracy: 173/200 (86%)
+err pgd (white-box):  tensor(61., device='cuda:0')
+err pgd (white-box):  tensor(30., device='cuda:0')
+natural_err_total:  tensor(25., device='cuda:0')
+robust_err_total:  tensor(91., device='cuda:0')
+================================================================
+Train Epoch: 58 [0/1000 (0%)]	Loss: 1.146544
+================================================================
+Training: Average loss: 0.7972, Accuracy: 803/1000 (80%)
+Test: Average loss: 0.7653, Accuracy: 161/200 (80%)
+err pgd (white-box):  tensor(65., device='cuda:0')
+err pgd (white-box):  tensor(25., device='cuda:0')
+natural_err_total:  tensor(40., device='cuda:0')
+robust_err_total:  tensor(90., device='cuda:0')
+================================================================
+Train Epoch: 59 [0/1000 (0%)]	Loss: 1.153589
+================================================================
+Training: Average loss: 0.6844, Accuracy: 873/1000 (87%)
+Test: Average loss: 0.7030, Accuracy: 173/200 (86%)
+err pgd (white-box):  tensor(51., device='cuda:0')
+err pgd (white-box):  tensor(28., device='cuda:0')
+natural_err_total:  tensor(29., device='cuda:0')
+robust_err_total:  tensor(79., device='cuda:0')
+================================================================
+Train Epoch: 60 [0/1000 (0%)]	Loss: 1.010784
+================================================================
+Training: Average loss: 0.6724, Accuracy: 849/1000 (85%)
+Test: Average loss: 0.6301, Accuracy: 174/200 (87%)
+err pgd (white-box):  tensor(56., device='cuda:0')
+err pgd (white-box):  tensor(28., device='cuda:0')
+natural_err_total:  tensor(29., device='cuda:0')
+robust_err_total:  tensor(84., device='cuda:0')
+================================================================
+Train Epoch: 61 [0/1000 (0%)]	Loss: 1.033989
+================================================================
+Training: Average loss: 0.6189, Accuracy: 876/1000 (88%)
+Test: Average loss: 0.6064, Accuracy: 183/200 (92%)
+err pgd (white-box):  tensor(45., device='cuda:0')
+err pgd (white-box):  tensor(21., device='cuda:0')
+natural_err_total:  tensor(16., device='cuda:0')
+robust_err_total:  tensor(66., device='cuda:0')
+================================================================
+Train Epoch: 62 [0/1000 (0%)]	Loss: 0.989240
+================================================================
+Training: Average loss: 0.6398, Accuracy: 881/1000 (88%)
+Test: Average loss: 0.6240, Accuracy: 181/200 (90%)
+err pgd (white-box):  tensor(56., device='cuda:0')
+err pgd (white-box):  tensor(16., device='cuda:0')
+natural_err_total:  tensor(15., device='cuda:0')
+robust_err_total:  tensor(72., device='cuda:0')
+================================================================
+Train Epoch: 63 [0/1000 (0%)]	Loss: 0.900939
+================================================================
+Training: Average loss: 0.6140, Accuracy: 899/1000 (90%)
+Test: Average loss: 0.6434, Accuracy: 182/200 (91%)
+err pgd (white-box):  tensor(60., device='cuda:0')
+err pgd (white-box):  tensor(21., device='cuda:0')
+natural_err_total:  tensor(15., device='cuda:0')
+robust_err_total:  tensor(81., device='cuda:0')
+================================================================
+Train Epoch: 64 [0/1000 (0%)]	Loss: 0.959397
+================================================================
+Training: Average loss: 0.5799, Accuracy: 896/1000 (90%)
+Test: Average loss: 0.5383, Accuracy: 189/200 (94%)
+err pgd (white-box):  tensor(41., device='cuda:0')
+err pgd (white-box):  tensor(20., device='cuda:0')
+natural_err_total:  tensor(13., device='cuda:0')
+robust_err_total:  tensor(61., device='cuda:0')
+================================================================
+Train Epoch: 65 [0/1000 (0%)]	Loss: 0.883667
+================================================================
+Training: Average loss: 0.5050, Accuracy: 925/1000 (92%)
+Test: Average loss: 0.4932, Accuracy: 186/200 (93%)
+err pgd (white-box):  tensor(37., device='cuda:0')
+err pgd (white-box):  tensor(25., device='cuda:0')
+natural_err_total:  tensor(10., device='cuda:0')
+robust_err_total:  tensor(62., device='cuda:0')
+================================================================
+Train Epoch: 66 [0/1000 (0%)]	Loss: 0.958541
+================================================================
+Training: Average loss: 0.6299, Accuracy: 864/1000 (86%)
+Test: Average loss: 0.6097, Accuracy: 169/200 (84%)
+err pgd (white-box):  tensor(49., device='cuda:0')
+err pgd (white-box):  tensor(20., device='cuda:0')
+natural_err_total:  tensor(28., device='cuda:0')
+robust_err_total:  tensor(69., device='cuda:0')
+================================================================
+Train Epoch: 67 [0/1000 (0%)]	Loss: 0.891008
+================================================================
+Training: Average loss: 0.5500, Accuracy: 911/1000 (91%)
+Test: Average loss: 0.5575, Accuracy: 187/200 (94%)
+err pgd (white-box):  tensor(42., device='cuda:0')
+err pgd (white-box):  tensor(20., device='cuda:0')
+natural_err_total:  tensor(12., device='cuda:0')
+robust_err_total:  tensor(62., device='cuda:0')
+================================================================
+Train Epoch: 68 [0/1000 (0%)]	Loss: 0.812566
+================================================================
+Training: Average loss: 0.5474, Accuracy: 922/1000 (92%)
+Test: Average loss: 0.5462, Accuracy: 191/200 (96%)
+err pgd (white-box):  tensor(40., device='cuda:0')
+err pgd (white-box):  tensor(14., device='cuda:0')
+natural_err_total:  tensor(12., device='cuda:0')
+robust_err_total:  tensor(54., device='cuda:0')
+================================================================
+Train Epoch: 69 [0/1000 (0%)]	Loss: 0.817792
+================================================================
+Training: Average loss: 0.5167, Accuracy: 924/1000 (92%)
+Test: Average loss: 0.5014, Accuracy: 190/200 (95%)
+err pgd (white-box):  tensor(46., device='cuda:0')
+err pgd (white-box):  tensor(18., device='cuda:0')
+natural_err_total:  tensor(11., device='cuda:0')
+robust_err_total:  tensor(64., device='cuda:0')
+================================================================
+Train Epoch: 70 [0/1000 (0%)]	Loss: 0.916695
+================================================================
+Training: Average loss: 0.4610, Accuracy: 927/1000 (93%)
+Test: Average loss: 0.4634, Accuracy: 186/200 (93%)
+err pgd (white-box):  tensor(33., device='cuda:0')
+err pgd (white-box):  tensor(21., device='cuda:0')
+natural_err_total:  tensor(13., device='cuda:0')
+robust_err_total:  tensor(54., device='cuda:0')
+================================================================
+Train Epoch: 71 [0/1000 (0%)]	Loss: 0.899191
+================================================================
+Training: Average loss: 0.4877, Accuracy: 914/1000 (91%)
+Test: Average loss: 0.4845, Accuracy: 181/200 (90%)
+err pgd (white-box):  tensor(38., device='cuda:0')
+err pgd (white-box):  tensor(16., device='cuda:0')
+natural_err_total:  tensor(15., device='cuda:0')
+robust_err_total:  tensor(54., device='cuda:0')
+================================================================
+Train Epoch: 72 [0/1000 (0%)]	Loss: 0.844183
+================================================================
+Training: Average loss: 0.5474, Accuracy: 909/1000 (91%)
+Test: Average loss: 0.5363, Accuracy: 188/200 (94%)
+err pgd (white-box):  tensor(36., device='cuda:0')
+err pgd (white-box):  tensor(19., device='cuda:0')
+natural_err_total:  tensor(13., device='cuda:0')
+robust_err_total:  tensor(55., device='cuda:0')
+================================================================
+Train Epoch: 73 [0/1000 (0%)]	Loss: 0.808012
+================================================================
+Training: Average loss: 0.5914, Accuracy: 895/1000 (90%)
+Test: Average loss: 0.6363, Accuracy: 177/200 (88%)
+err pgd (white-box):  tensor(50., device='cuda:0')
+err pgd (white-box):  tensor(30., device='cuda:0')
+natural_err_total:  tensor(22., device='cuda:0')
+robust_err_total:  tensor(80., device='cuda:0')
+================================================================
+Train Epoch: 74 [0/1000 (0%)]	Loss: 0.907899
+================================================================
+Training: Average loss: 0.5757, Accuracy: 887/1000 (89%)
+Test: Average loss: 0.5982, Accuracy: 179/200 (90%)
+err pgd (white-box):  tensor(54., device='cuda:0')
+err pgd (white-box):  tensor(23., device='cuda:0')
+natural_err_total:  tensor(18., device='cuda:0')
+robust_err_total:  tensor(77., device='cuda:0')
+================================================================
+Train Epoch: 75 [0/1000 (0%)]	Loss: 0.823427
+================================================================
+Training: Average loss: 0.3714, Accuracy: 964/1000 (96%)
+Test: Average loss: 0.3771, Accuracy: 195/200 (98%)
+err pgd (white-box):  tensor(27., device='cuda:0')
+err pgd (white-box):  tensor(10., device='cuda:0')
+natural_err_total:  tensor(4., device='cuda:0')
+robust_err_total:  tensor(37., device='cuda:0')
+================================================================
+Train Epoch: 76 [0/1000 (0%)]	Loss: 0.822808
+================================================================
+Training: Average loss: 0.3454, Accuracy: 967/1000 (97%)
+Test: Average loss: 0.3700, Accuracy: 196/200 (98%)
+err pgd (white-box):  tensor(23., device='cuda:0')
+err pgd (white-box):  tensor(6., device='cuda:0')
+natural_err_total:  tensor(3., device='cuda:0')
+robust_err_total:  tensor(29., device='cuda:0')
+================================================================
+Train Epoch: 77 [0/1000 (0%)]	Loss: 0.674585
+================================================================
+Training: Average loss: 0.3022, Accuracy: 977/1000 (98%)
+Test: Average loss: 0.3062, Accuracy: 197/200 (98%)
+err pgd (white-box):  tensor(16., device='cuda:0')
+err pgd (white-box):  tensor(5., device='cuda:0')
+natural_err_total:  tensor(3., device='cuda:0')
+robust_err_total:  tensor(21., device='cuda:0')
+================================================================
+Train Epoch: 78 [0/1000 (0%)]	Loss: 0.602800
+================================================================
+Training: Average loss: 0.2595, Accuracy: 984/1000 (98%)
+Test: Average loss: 0.2658, Accuracy: 198/200 (99%)
+err pgd (white-box):  tensor(11., device='cuda:0')
+err pgd (white-box):  tensor(6., device='cuda:0')
+natural_err_total:  tensor(3., device='cuda:0')
+robust_err_total:  tensor(17., device='cuda:0')
+================================================================
+Train Epoch: 79 [0/1000 (0%)]	Loss: 0.546044
+================================================================
+Training: Average loss: 0.2350, Accuracy: 985/1000 (98%)
+Test: Average loss: 0.2356, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(12., device='cuda:0')
+err pgd (white-box):  tensor(5., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(17., device='cuda:0')
+================================================================
+Train Epoch: 80 [0/1000 (0%)]	Loss: 0.620158
+================================================================
+Training: Average loss: 0.2159, Accuracy: 986/1000 (99%)
+Test: Average loss: 0.2232, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(12., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(13., device='cuda:0')
+================================================================
+Train Epoch: 81 [0/1000 (0%)]	Loss: 0.498768
+================================================================
+Training: Average loss: 0.1997, Accuracy: 983/1000 (98%)
+Test: Average loss: 0.2023, Accuracy: 198/200 (99%)
+err pgd (white-box):  tensor(10., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(12., device='cuda:0')
+================================================================
+Train Epoch: 82 [0/1000 (0%)]	Loss: 0.511446
+================================================================
+Training: Average loss: 0.1899, Accuracy: 988/1000 (99%)
+Test: Average loss: 0.1990, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(4., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(13., device='cuda:0')
+================================================================
+Train Epoch: 83 [0/1000 (0%)]	Loss: 0.479127
+================================================================
+Training: Average loss: 0.1759, Accuracy: 983/1000 (98%)
+Test: Average loss: 0.1828, Accuracy: 198/200 (99%)
+err pgd (white-box):  tensor(12., device='cuda:0')
+err pgd (white-box):  tensor(5., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(17., device='cuda:0')
+================================================================
+Train Epoch: 84 [0/1000 (0%)]	Loss: 0.447697
+================================================================
+Training: Average loss: 0.1612, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1670, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 85 [0/1000 (0%)]	Loss: 0.434694
+================================================================
+Training: Average loss: 0.1634, Accuracy: 987/1000 (99%)
+Test: Average loss: 0.1642, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(11., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(14., device='cuda:0')
+================================================================
+Train Epoch: 86 [0/1000 (0%)]	Loss: 0.507753
+================================================================
+Training: Average loss: 0.1548, Accuracy: 986/1000 (99%)
+Test: Average loss: 0.1653, Accuracy: 198/200 (99%)
+err pgd (white-box):  tensor(12., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(14., device='cuda:0')
+================================================================
+Train Epoch: 87 [0/1000 (0%)]	Loss: 0.364437
+================================================================
+Training: Average loss: 0.1414, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1419, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(2., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 88 [0/1000 (0%)]	Loss: 0.398975
+================================================================
+Training: Average loss: 0.1363, Accuracy: 989/1000 (99%)
+Test: Average loss: 0.1364, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 89 [0/1000 (0%)]	Loss: 0.357468
+================================================================
+Training: Average loss: 0.1237, Accuracy: 989/1000 (99%)
+Test: Average loss: 0.1335, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 90 [0/1000 (0%)]	Loss: 0.345403
+================================================================
+Training: Average loss: 0.1214, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1195, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 91 [0/1000 (0%)]	Loss: 0.407712
+================================================================
+Training: Average loss: 0.1223, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1210, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 92 [0/1000 (0%)]	Loss: 0.341817
+================================================================
+Training: Average loss: 0.1203, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1208, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(10., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(12., device='cuda:0')
+================================================================
+Train Epoch: 93 [0/1000 (0%)]	Loss: 0.332680
+================================================================
+Training: Average loss: 0.1201, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1204, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(10., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 94 [0/1000 (0%)]	Loss: 0.430446
+================================================================
+Training: Average loss: 0.1180, Accuracy: 990/1000 (99%)
+Test: Average loss: 0.1206, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 95 [0/1000 (0%)]	Loss: 0.311880
+================================================================
+Training: Average loss: 0.1175, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1156, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 96 [0/1000 (0%)]	Loss: 0.409636
+================================================================
+Training: Average loss: 0.1196, Accuracy: 990/1000 (99%)
+Test: Average loss: 0.1183, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 97 [0/1000 (0%)]	Loss: 0.370807
+================================================================
+Training: Average loss: 0.1167, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1180, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 98 [0/1000 (0%)]	Loss: 0.365800
+================================================================
+Training: Average loss: 0.1193, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1249, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(5., device='cuda:0')
+================================================================
+Train Epoch: 99 [0/1000 (0%)]	Loss: 0.479038
+================================================================
+Training: Average loss: 0.1159, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1186, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 100 [0/1000 (0%)]	Loss: 0.357213
+================================================================
+Training: Average loss: 0.1180, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1151, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 101 [0/1000 (0%)]	Loss: 0.361861
+================================================================
+Training: Average loss: 0.1194, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1138, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 102 [0/1000 (0%)]	Loss: 0.369370
+================================================================
+Training: Average loss: 0.1181, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1193, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 103 [0/1000 (0%)]	Loss: 0.335756
+================================================================
+Training: Average loss: 0.1147, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1195, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 104 [0/1000 (0%)]	Loss: 0.377292
+================================================================
+Training: Average loss: 0.1154, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1154, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(4., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(4., device='cuda:0')
+================================================================
+Train Epoch: 105 [0/1000 (0%)]	Loss: 0.312143
+================================================================
+Training: Average loss: 0.1140, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1191, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 106 [0/1000 (0%)]	Loss: 0.397237
+================================================================
+Training: Average loss: 0.1116, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1189, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 107 [0/1000 (0%)]	Loss: 0.333757
+================================================================
+Training: Average loss: 0.1147, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1146, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 108 [0/1000 (0%)]	Loss: 0.327958
+================================================================
+Training: Average loss: 0.1139, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1167, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 109 [0/1000 (0%)]	Loss: 0.422226
+================================================================
+Training: Average loss: 0.1131, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1178, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 110 [0/1000 (0%)]	Loss: 0.327537
+================================================================
+Training: Average loss: 0.1115, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1120, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 111 [0/1000 (0%)]	Loss: 0.395616
+================================================================
+Training: Average loss: 0.1147, Accuracy: 989/1000 (99%)
+Test: Average loss: 0.1129, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 112 [0/1000 (0%)]	Loss: 0.431273
+================================================================
+Training: Average loss: 0.1153, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1134, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 113 [0/1000 (0%)]	Loss: 0.316712
+================================================================
+Training: Average loss: 0.1129, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1102, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 114 [0/1000 (0%)]	Loss: 0.355499
+================================================================
+Training: Average loss: 0.1126, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1104, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 115 [0/1000 (0%)]	Loss: 0.380304
+================================================================
+Training: Average loss: 0.1137, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1146, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 116 [0/1000 (0%)]	Loss: 0.362560
+================================================================
+Training: Average loss: 0.1183, Accuracy: 990/1000 (99%)
+Test: Average loss: 0.1182, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 117 [0/1000 (0%)]	Loss: 0.405117
+================================================================
+Training: Average loss: 0.1170, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1173, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 118 [0/1000 (0%)]	Loss: 0.320160
+================================================================
+Training: Average loss: 0.1147, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1096, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 119 [0/1000 (0%)]	Loss: 0.372043
+================================================================
+Training: Average loss: 0.1124, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1148, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 120 [0/1000 (0%)]	Loss: 0.432359
+================================================================
+Training: Average loss: 0.1089, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1136, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 121 [0/1000 (0%)]	Loss: 0.362327
+================================================================
+Training: Average loss: 0.1129, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1111, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 122 [0/1000 (0%)]	Loss: 0.279655
+================================================================
+Training: Average loss: 0.1156, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1112, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 123 [0/1000 (0%)]	Loss: 0.377069
+================================================================
+Training: Average loss: 0.1166, Accuracy: 990/1000 (99%)
+Test: Average loss: 0.1142, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 124 [0/1000 (0%)]	Loss: 0.313497
+================================================================
+Training: Average loss: 0.1120, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1114, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 125 [0/1000 (0%)]	Loss: 0.345460
+================================================================
+Training: Average loss: 0.1161, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1184, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 126 [0/1000 (0%)]	Loss: 0.350109
+================================================================
+Training: Average loss: 0.1137, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1094, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 127 [0/1000 (0%)]	Loss: 0.317000
+================================================================
+Training: Average loss: 0.1133, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1090, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 128 [0/1000 (0%)]	Loss: 0.328843
+================================================================
+Training: Average loss: 0.1128, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1192, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 129 [0/1000 (0%)]	Loss: 0.345917
+================================================================
+Training: Average loss: 0.1136, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1150, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 130 [0/1000 (0%)]	Loss: 0.350313
+================================================================
+Training: Average loss: 0.1134, Accuracy: 989/1000 (99%)
+Test: Average loss: 0.1135, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 131 [0/1000 (0%)]	Loss: 0.267239
+================================================================
+Training: Average loss: 0.1163, Accuracy: 987/1000 (99%)
+Test: Average loss: 0.1121, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(4., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(4., device='cuda:0')
+================================================================
+Train Epoch: 132 [0/1000 (0%)]	Loss: 0.390429
+================================================================
+Training: Average loss: 0.1125, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1124, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 133 [0/1000 (0%)]	Loss: 0.327488
+================================================================
+Training: Average loss: 0.1105, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1125, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 134 [0/1000 (0%)]	Loss: 0.350118
+================================================================
+Training: Average loss: 0.1133, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1154, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 135 [0/1000 (0%)]	Loss: 0.339132
+================================================================
+Training: Average loss: 0.1106, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1083, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 136 [0/1000 (0%)]	Loss: 0.418835
+================================================================
+Training: Average loss: 0.1101, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1115, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(4., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(12., device='cuda:0')
+================================================================
+Train Epoch: 137 [0/1000 (0%)]	Loss: 0.338979
+================================================================
+Training: Average loss: 0.1154, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1106, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 138 [0/1000 (0%)]	Loss: 0.309173
+================================================================
+Training: Average loss: 0.1157, Accuracy: 990/1000 (99%)
+Test: Average loss: 0.1169, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 139 [0/1000 (0%)]	Loss: 0.329494
+================================================================
+Training: Average loss: 0.1123, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1126, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 140 [0/1000 (0%)]	Loss: 0.330803
+================================================================
+Training: Average loss: 0.1122, Accuracy: 990/1000 (99%)
+Test: Average loss: 0.1100, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(5., device='cuda:0')
+================================================================
+Train Epoch: 141 [0/1000 (0%)]	Loss: 0.352997
+================================================================
+Training: Average loss: 0.1102, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1111, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 142 [0/1000 (0%)]	Loss: 0.317414
+================================================================
+Training: Average loss: 0.1136, Accuracy: 989/1000 (99%)
+Test: Average loss: 0.1111, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 143 [0/1000 (0%)]	Loss: 0.324751
+================================================================
+Training: Average loss: 0.1098, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1150, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 144 [0/1000 (0%)]	Loss: 0.336263
+================================================================
+Training: Average loss: 0.1122, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1130, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 145 [0/1000 (0%)]	Loss: 0.320380
+================================================================
+Training: Average loss: 0.1102, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1079, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(5., device='cuda:0')
+================================================================
+Train Epoch: 146 [0/1000 (0%)]	Loss: 0.396756
+================================================================
+Training: Average loss: 0.1113, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1170, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 147 [0/1000 (0%)]	Loss: 0.414536
+================================================================
+Training: Average loss: 0.1101, Accuracy: 995/1000 (100%)
+Test: Average loss: 0.1129, Accuracy: 198/200 (99%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 148 [0/1000 (0%)]	Loss: 0.340969
+================================================================
+Training: Average loss: 0.1110, Accuracy: 995/1000 (100%)
+Test: Average loss: 0.1111, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 149 [0/1000 (0%)]	Loss: 0.316272
+================================================================
+Training: Average loss: 0.1111, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1102, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 150 [0/1000 (0%)]	Loss: 0.380165
+================================================================
+Training: Average loss: 0.1118, Accuracy: 995/1000 (100%)
+Test: Average loss: 0.1062, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 151 [0/1000 (0%)]	Loss: 0.401479
+================================================================
+Training: Average loss: 0.1107, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1125, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 152 [0/1000 (0%)]	Loss: 0.322304
+================================================================
+Training: Average loss: 0.1139, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1119, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(10., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 153 [0/1000 (0%)]	Loss: 0.335177
+================================================================
+Training: Average loss: 0.1119, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1089, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 154 [0/1000 (0%)]	Loss: 0.393976
+================================================================
+Training: Average loss: 0.1113, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1091, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 155 [0/1000 (0%)]	Loss: 0.280531
+================================================================
+Training: Average loss: 0.1113, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1158, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 156 [0/1000 (0%)]	Loss: 0.289793
+================================================================
+Training: Average loss: 0.1109, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1119, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 157 [0/1000 (0%)]	Loss: 0.383984
+================================================================
+Training: Average loss: 0.1105, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1094, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 158 [0/1000 (0%)]	Loss: 0.396609
+================================================================
+Training: Average loss: 0.1095, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1129, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 159 [0/1000 (0%)]	Loss: 0.385749
+================================================================
+Training: Average loss: 0.1079, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1114, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(12., device='cuda:0')
+================================================================
+Train Epoch: 160 [0/1000 (0%)]	Loss: 0.313723
+================================================================
+Training: Average loss: 0.1137, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1150, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 161 [0/1000 (0%)]	Loss: 0.386057
+================================================================
+Training: Average loss: 0.1076, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1126, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 162 [0/1000 (0%)]	Loss: 0.315560
+================================================================
+Training: Average loss: 0.1108, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1073, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 163 [0/1000 (0%)]	Loss: 0.394839
+================================================================
+Training: Average loss: 0.1097, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1081, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 164 [0/1000 (0%)]	Loss: 0.325266
+================================================================
+Training: Average loss: 0.1128, Accuracy: 989/1000 (99%)
+Test: Average loss: 0.1144, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(11., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(12., device='cuda:0')
+================================================================
+Train Epoch: 165 [0/1000 (0%)]	Loss: 0.352706
+================================================================
+Training: Average loss: 0.1093, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1108, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(4., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(5., device='cuda:0')
+================================================================
+Train Epoch: 166 [0/1000 (0%)]	Loss: 0.365244
+================================================================
+Training: Average loss: 0.1108, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1092, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 167 [0/1000 (0%)]	Loss: 0.321336
+================================================================
+Training: Average loss: 0.1100, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1025, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 168 [0/1000 (0%)]	Loss: 0.363040
+================================================================
+Training: Average loss: 0.1113, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1100, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 169 [0/1000 (0%)]	Loss: 0.322858
+================================================================
+Training: Average loss: 0.1115, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1107, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 170 [0/1000 (0%)]	Loss: 0.334223
+================================================================
+Training: Average loss: 0.1101, Accuracy: 995/1000 (100%)
+Test: Average loss: 0.1064, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(11., device='cuda:0')
+================================================================
+Train Epoch: 171 [0/1000 (0%)]	Loss: 0.356538
+================================================================
+Training: Average loss: 0.1069, Accuracy: 995/1000 (100%)
+Test: Average loss: 0.1130, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 172 [0/1000 (0%)]	Loss: 0.350917
+================================================================
+Training: Average loss: 0.1077, Accuracy: 995/1000 (100%)
+Test: Average loss: 0.1113, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 173 [0/1000 (0%)]	Loss: 0.269741
+================================================================
+Training: Average loss: 0.1063, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1150, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 174 [0/1000 (0%)]	Loss: 0.375956
+================================================================
+Training: Average loss: 0.1083, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1065, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 175 [0/1000 (0%)]	Loss: 0.368795
+================================================================
+Training: Average loss: 0.1087, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1087, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 176 [0/1000 (0%)]	Loss: 0.354039
+================================================================
+Training: Average loss: 0.1114, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1156, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 177 [0/1000 (0%)]	Loss: 0.351593
+================================================================
+Training: Average loss: 0.1115, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1124, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 178 [0/1000 (0%)]	Loss: 0.312580
+================================================================
+Training: Average loss: 0.1063, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1092, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 179 [0/1000 (0%)]	Loss: 0.364456
+================================================================
+Training: Average loss: 0.1096, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1081, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 180 [0/1000 (0%)]	Loss: 0.405662
+================================================================
+Training: Average loss: 0.1084, Accuracy: 990/1000 (99%)
+Test: Average loss: 0.1091, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 181 [0/1000 (0%)]	Loss: 0.368617
+================================================================
+Training: Average loss: 0.1115, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1059, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(4., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(5., device='cuda:0')
+================================================================
+Train Epoch: 182 [0/1000 (0%)]	Loss: 0.332037
+================================================================
+Training: Average loss: 0.1057, Accuracy: 997/1000 (100%)
+Test: Average loss: 0.1120, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 183 [0/1000 (0%)]	Loss: 0.352347
+================================================================
+Training: Average loss: 0.1073, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1078, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(4., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(1., device='cuda:0')
+robust_err_total:  tensor(4., device='cuda:0')
+================================================================
+Train Epoch: 184 [0/1000 (0%)]	Loss: 0.325896
+================================================================
+Training: Average loss: 0.1053, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1013, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 185 [0/1000 (0%)]	Loss: 0.347950
+================================================================
+Training: Average loss: 0.1050, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1135, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 186 [0/1000 (0%)]	Loss: 0.374641
+================================================================
+Training: Average loss: 0.1054, Accuracy: 996/1000 (100%)
+Test: Average loss: 0.1010, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
+Train Epoch: 187 [0/1000 (0%)]	Loss: 0.431214
+================================================================
+Training: Average loss: 0.1098, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1100, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 188 [0/1000 (0%)]	Loss: 0.358357
+================================================================
+Training: Average loss: 0.1041, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1083, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 189 [0/1000 (0%)]	Loss: 0.313473
+================================================================
+Training: Average loss: 0.1114, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1098, Accuracy: 199/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(3., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 190 [0/1000 (0%)]	Loss: 0.291053
+================================================================
+Training: Average loss: 0.1097, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1150, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 191 [0/1000 (0%)]	Loss: 0.311683
+================================================================
+Training: Average loss: 0.1049, Accuracy: 995/1000 (100%)
+Test: Average loss: 0.1080, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(2., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(9., device='cuda:0')
+================================================================
+Train Epoch: 192 [0/1000 (0%)]	Loss: 0.328855
+================================================================
+Training: Average loss: 0.1077, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1160, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 193 [0/1000 (0%)]	Loss: 0.304181
+================================================================
+Training: Average loss: 0.1055, Accuracy: 995/1000 (100%)
+Test: Average loss: 0.1091, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(4., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(5., device='cuda:0')
+================================================================
+Train Epoch: 194 [0/1000 (0%)]	Loss: 0.289146
+================================================================
+Training: Average loss: 0.1086, Accuracy: 996/1000 (100%)
+Test: Average loss: 0.1077, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(7., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 195 [0/1000 (0%)]	Loss: 0.359474
+================================================================
+Training: Average loss: 0.1054, Accuracy: 991/1000 (99%)
+Test: Average loss: 0.1043, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 196 [0/1000 (0%)]	Loss: 0.344922
+================================================================
+Training: Average loss: 0.1075, Accuracy: 992/1000 (99%)
+Test: Average loss: 0.1104, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(6., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(7., device='cuda:0')
+================================================================
+Train Epoch: 197 [0/1000 (0%)]	Loss: 0.299404
+================================================================
+Training: Average loss: 0.1056, Accuracy: 994/1000 (99%)
+Test: Average loss: 0.1080, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(8., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(8., device='cuda:0')
+================================================================
+Train Epoch: 198 [0/1000 (0%)]	Loss: 0.338803
+================================================================
+Training: Average loss: 0.1089, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1062, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(0., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(5., device='cuda:0')
+================================================================
+Train Epoch: 199 [0/1000 (0%)]	Loss: 0.290975
+================================================================
+Training: Average loss: 0.1059, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1087, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(9., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(10., device='cuda:0')
+================================================================
+Train Epoch: 200 [0/1000 (0%)]	Loss: 0.292327
+================================================================
+Training: Average loss: 0.1054, Accuracy: 993/1000 (99%)
+Test: Average loss: 0.1058, Accuracy: 200/200 (100%)
+err pgd (white-box):  tensor(5., device='cuda:0')
+err pgd (white-box):  tensor(1., device='cuda:0')
+natural_err_total:  tensor(0., device='cuda:0')
+robust_err_total:  tensor(6., device='cuda:0')
+================================================================
