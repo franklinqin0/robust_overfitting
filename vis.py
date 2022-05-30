@@ -8,8 +8,10 @@ import matplotlib.pyplot as plt
 # dir = "experiments/cifar10_validation/preactresnet18"
 dir = "experiments/cifar10_wide/wideresnet_1"
 # dir = "experiments/cifar10_lr/preactresnet18_manystep"
+# dir = reproduce_results
 
 # path = "eval.log"
+# path = "cutout2.log"
 path = "output.log"
 
 header = ""
