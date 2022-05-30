@@ -10,11 +10,10 @@ matplotlib.use('Agg')
 # dir = "experiments/cifar10_validation/preactresnet18"
 # dir = "experiments/cifar10_wide/wideresnet_1"
 # dir = "experiments/cifar10_lr/preactresnet18_manystep"
-# dir = "experiments/cifar100_standard/preactresnet18"
-dir = "cifar100_model"
-# dir = "experiments/cifar10_semisupervised/preactresnet18_500000"
+# dir = reproduce_results
 
 # path = "eval.log"
+# path = "cutout2.log"
 path = "output.log"
 
 # dir = "."
