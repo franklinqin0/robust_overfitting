@@ -10,11 +10,11 @@ matplotlib.use('Agg')
 # dir = "experiments/cifar10_validation/preactresnet18"
 # dir = "experiments/cifar10_wide/wideresnet_1"
 # dir = "experiments/cifar10_lr/preactresnet18_manystep"
-# dir = reproduce_results
+dir = "reproduce_results"
 
 # path = "eval.log"
-# path = "cutout2.log"
-path = "output.log"
+path = "l2_50.log"
+# path = "output.log"
 
 # dir = "."
 # path = "haha.log"
@@ -58,4 +58,4 @@ temp.plot()
 
 plt.legend(loc='best')
 # plt.show()
-plt.savefig("try.png")
+plt.savefig("l2_50.png")
