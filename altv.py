@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 # path = "trades_madry.out"
 
 dir = "./"
-path = "trades_3.log"
-test_size = 200
+path = "trades_4.log"
+test_size = 5000
 
 test_errs = []
 train_errs = []
@@ -43,5 +43,5 @@ plt.legend(loc='best')
 plt.xlabel("Epochs")
 plt.ylabel("Error")
 # plt.show()
-plt.savefig("haha.png")
+plt.savefig("trades_4.png")
 # """

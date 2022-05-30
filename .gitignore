@@ -1,1 +1,7 @@
 __pycache__/
+
+*.pt
+*.pth
+*.log
+*.tar
+ti_500K_pseudo_labeled.pickle

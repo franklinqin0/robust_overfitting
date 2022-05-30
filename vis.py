@@ -3,14 +3,22 @@ import numpy as np
 import os
 import re
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
 
 # dir = "experiments/cifar10_trades_l2"
 # dir = "experiments/cifar10_validation/preactresnet18"
-dir = "experiments/cifar10_wide/wideresnet_1"
+# dir = "experiments/cifar10_wide/wideresnet_1"
 # dir = "experiments/cifar10_lr/preactresnet18_manystep"
+# dir = "experiments/cifar100_standard/preactresnet18"
+dir = "cifar100_model"
+# dir = "experiments/cifar10_semisupervised/preactresnet18_500000"
 
 # path = "eval.log"
 path = "output.log"
+
+# dir = "."
+# path = "haha.log"
 
 header = ""
 data = []
@@ -20,13 +28,13 @@ with open(os.path.join(dir, path), 'r') as f:
     for line in f:
         if "Epoch" in line:
             header = line
-        elif "Test Acc" in line:
+        elif ("Namespace" in line) or ("Resuming" in line):
+            continue
+        else:
             temp = re.sub('\s+','\t',line)
             temp = temp.split('-', 1)[1].split('\t')
             temp = list(filter(None, temp))
             data.append(temp[:])
-        else:
-            continue
 
 header = header.split('-', 1)[1]
 header = re.sub('\t+', ' ', header).split("  ")
@@ -37,17 +45,18 @@ df = df.rename(columns=lambda x: x.strip())
 
 df1 = df[["Epoch", "Train Acc", "Train Robust Acc", "Test Acc", "Test Robust Acc"]]
 df1["Epoch"] = df1["Epoch"].astype(int)
-df1["Train Acc"] = 1 - df1["Train Acc"].astype(float)
-df1["Train Robust Acc"] = 1 - df1["Train Robust Acc"].astype(float)
-df1["Test Acc"] = 1 - df1["Test Acc"].astype(float)
-df1["Test Robust Acc"] = 1 - df1["Test Robust Acc"].astype(float)
+df1["Train Err"] = 1 - df1["Train Acc"].astype(float)
+del df1["Train Acc"]
+df1["Train Robust Err"] = 1 - df1["Train Robust Acc"].astype(float)
+del df1["Train Robust Acc"]
+df1["Test Err"] = 1 - df1["Test Acc"].astype(float)
+del df1["Test Acc"]
+df1["Test Robust Err"] = 1 - df1["Test Robust Acc"].astype(float)
+del df1["Test Robust Acc"]
 
-# print(df1.dtypes)
-print(df1.head())
-# print(df1["Epoch"])
-# df1.plot(xticks=df1["Epoch"])
 temp = df1.groupby("Epoch").sum()
 temp.plot()
 
 plt.legend(loc='best')
-plt.show()
+# plt.show()
+plt.savefig("try.png")
