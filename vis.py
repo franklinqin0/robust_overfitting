@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
 
-# dir = "experiments/cifar10_trades_l2"
+dir = "cifar_model"
 # dir = "experiments/cifar10_validation/preactresnet18"
 # dir = "experiments/cifar10_wide/wideresnet_1"
 # dir = "experiments/cifar10_lr/preactresnet18_manystep"
@@ -27,9 +27,10 @@ with open(os.path.join(dir, path), 'r') as f:
     for line in f:
         if "Epoch" in line:
             header = line
-        elif ("Namespace" in line) or ("Resuming" in line):
+        elif ("Namespace" in line) or ("Resuming" in line) or ("downloaded" in line):
             continue
         else:
+            # print('line:', line)
             temp = re.sub('\s+','\t',line)
             temp = temp.split('-', 1)[1].split('\t')
             temp = list(filter(None, temp))
