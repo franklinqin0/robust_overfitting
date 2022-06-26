@@ -6,17 +6,17 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
 
-dir = "cifar_model"
-# dir = "reproduce_results"
+# dir = "cifar_model"
+# dir = "experiments/cifar10_validation/preactresnet18"
+# dir = "experiments/cifar10_wide/wideresnet_1"
+# dir = "experiments/cifar10_lr/preactresnet18_manystep"
+dir = "reproduce_results"
 
-# path = "eval.log"
-path = "output.log"
-
-# dir = "."
-# path = "haha.log"
+path = "val.log"
 
 header = ""
 data = []
+vals = []
 # whitespace = ""
 
 with open(os.path.join(dir, path), 'r') as f:
@@ -25,9 +25,14 @@ with open(os.path.join(dir, path), 'r') as f:
             header = line
         elif ("Namespace" in line) or ("Resuming" in line) or ("downloaded" in line):
             continue
+        elif "validation" in line:
+            temp = re.sub('\s+','\t', line)
+            temp = temp.split('-', 1)[1].split('\t')
+            temp = list(filter(None, temp))
+            val = temp[-2]
+            vals.append(float(val))
         else:
-            # print('line:', line)
-            temp = re.sub('\s+','\t',line)
+            temp = re.sub('\s+','\t', line)
             temp = temp.split('-', 1)[1].split('\t')
             temp = list(filter(None, temp))
             data.append(temp[:])
@@ -39,20 +44,15 @@ header = list(filter(None, header))
 df = pd.DataFrame(data, columns=header)
 df = df.rename(columns=lambda x: x.strip())
 
-df1 = df[["Epoch", "Train Acc", "Train Robust Acc", "Test Acc", "Test Robust Acc"]]
+df1 = df[["Epoch", "Train Robust Loss", "Test Robust Loss"]]
 df1["Epoch"] = df1["Epoch"].astype(int)
-df1["Train Err"] = 1 - df1["Train Acc"].astype(float)
-del df1["Train Acc"]
-df1["Train Robust Err"] = 1 - df1["Train Robust Acc"].astype(float)
-del df1["Train Robust Acc"]
-df1["Test Err"] = 1 - df1["Test Acc"].astype(float)
-del df1["Test Acc"]
-df1["Test Robust Err"] = 1 - df1["Test Robust Acc"].astype(float)
-del df1["Test Robust Acc"]
+df1["Train Robust Loss"] = df1["Train Robust Loss"].astype(float)
+df1["Test Robust Loss"] = df1["Test Robust Loss"].astype(float)
+df1["Val Robust Loss"] = vals
 
 temp = df1.groupby("Epoch").sum()
 temp.plot()
 
 plt.legend(loc='best')
 # plt.show()
-plt.savefig("l2_50.png")
+plt.savefig("try.png")
