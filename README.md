@@ -1,6 +1,8 @@
 # Possible extension:
 https://zhuanlan.zhihu.com/p/191558572
-## CutMix
+## Cutout+Mixup (DONE)
+## Dropout (DONE)
+## Cutmix
 ## Random Erasing
 ## Mosiac
 ## FMix
