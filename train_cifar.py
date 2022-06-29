@@ -14,6 +14,8 @@ import os
 
 from wideresnet import WideResNet
 from preactresnet import PreActResNet18
+from preactresnetdropout import PreActResNet18dropout
+from preactresnetdrop import preactresnet18
 
 from utils import *
 
@@ -155,6 +157,7 @@ def get_args():
     parser.add_argument('--eval', action='store_true')
     parser.add_argument('--val', action='store_true')
     parser.add_argument('--chkpt-iters', default=10, type=int)
+    parser.add_argument('--dropout', type=float, default=0, help='Dropout applied to the model.')
     return parser.parse_args()
 
 
@@ -207,6 +210,8 @@ def main():
 
     if args.model == 'PreActResNet18':
         model = PreActResNet18()
+    elif args.model == 'PreActResNet18drop':
+        model = preactresnet18(dropout=args.dropout)
     elif args.model == 'WideResNet':
         model = WideResNet(34, 10, widen_factor=args.width_factor, dropRate=0.0)
     else:
