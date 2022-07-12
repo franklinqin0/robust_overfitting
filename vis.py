@@ -6,11 +6,12 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
 
-dir = "cifar_model"
-# dir = "reproduce_results"
+# dir = "cifar_model"
+dir = "reproduce_results"
 
 # path = "eval.log"
-path = "output.log"
+# path = "output.log"
+path = "dropout0.3.log"
 
 # dir = "."
 # path = "haha.log"
@@ -22,11 +23,10 @@ data = []
 with open(os.path.join(dir, path), 'r') as f:
     for line in f:
         if "Epoch" in line:
-            header = line
+            header = line 
         elif ("Namespace" in line) or ("Resuming" in line) or ("downloaded" in line):
             continue
         else:
-            # print('line:', line)
             temp = re.sub('\s+','\t',line)
             temp = temp.split('-', 1)[1].split('\t')
             temp = list(filter(None, temp))
@@ -49,10 +49,13 @@ df1["Test Err"] = 1 - df1["Test Acc"].astype(float)
 del df1["Test Acc"]
 df1["Test Robust Err"] = 1 - df1["Test Robust Acc"].astype(float)
 del df1["Test Robust Acc"]
+print('tbe min:', df1["Test Robust Err"].min())
+print('tbe last: ', df1["Test Robust Err"].iloc[-1])
+print('tbe diff:', df1["Test Robust Err"].iloc[-1] - df1["Test Robust Err"].min())
 
 temp = df1.groupby("Epoch").sum()
 temp.plot()
 
 plt.legend(loc='best')
 # plt.show()
-plt.savefig("l2_50.png")
+plt.savefig(path.rsplit('.', 1)[0] + ".png")
